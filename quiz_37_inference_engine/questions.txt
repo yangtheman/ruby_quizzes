@@ -1,0 +1,42 @@
+load './inference_engine.rb'
+app = App.new(Entities.new)
+app.parse_question("All mammals are hairy animals.")
+app.parse_question("All dogs are mammals.")
+app.parse_question("All beagles are dogs.")
+app.parse_question("Are all beagles hairy animals?")
+app.parse_question("All cats are mammals.")
+app.parse_question("All cats are hairy animals.")
+app.parse_question("Are all cats dogs?")
+app.parse_question("No cats are dogs.")
+app.parse_question("Are all cats dogs?")
+app.parse_question("Are no cats dogs?")
+app.parse_question("All mammals are dogs.")
+app.parse_question("Some mammals are brown animals.")
+app.parse_question("Are any mammals dogs?")
+app.parse_question("Are any dogs brown animals?")
+app.parse_question("Some dogs are brown animals.")
+app.parse_question("All brown animals are brown things.")
+app.parse_question("Are any dogs brown things?")
+app.parse_question("Are all goldfish mammals?")
+app.parse_question("Describe dogs.")
+
+
+All mammals are hairy animals.
+All dogs are mammals.
+All beagles are dogs.
+Are all beagles hairy animals?
+All cats are mammals.
+All cats are hairy animals.
+Are all cats dogs?
+No cats are dogs.
+Are all cats dogs?
+Are no cats dogs?
+All mammals are dogs.
+Some mammals are brown animals.
+Are any mammals dogs?
+Are any dogs brown animals?
+Some dogs are brown animals.
+All brown animals are brown things.
+Are any dogs brown things?
+Are all goldfish mammals?
+Describe dogs.
