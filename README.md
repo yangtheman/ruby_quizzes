@@ -1,3 +1,3 @@
-# Version 1 answers to ruby quizzes (no refactoring)
+# Version 1 (have not been refactored) answers to ruby quizzes
 
 ## There are no tests at this time
