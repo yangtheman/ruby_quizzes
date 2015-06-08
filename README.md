@@ -1,3 +1,3 @@
-# Draft 1 answers to ruby quizzes
+# Version 1 answers to ruby quizzes
 
-# There are no tests at this time
+## There are no tests at this time
