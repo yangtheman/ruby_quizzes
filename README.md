@@ -1,3 +1,4 @@
-# Draft 1 answers to ruby quizzes
+# Version 1 answers to ruby quizzes
 
-# There are no tests at this time
+- Have not been refactored
+- There are no tests at this time
